@@ -85,7 +85,7 @@ namespace ConsoleApp1
 
         public bool IsClose(Annotation other)
         {
-            return Math.Abs(X - other.X) <= 20 && Math.Abs(Y - other.Y) <= 20;
+            return Math.Abs(X - other.X) <= 10 && Math.Abs(Y - other.Y) <= 10;
         }
 
         public void Merge(Annotation other)
